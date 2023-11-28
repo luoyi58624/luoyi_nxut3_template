@@ -7,14 +7,26 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "update:dep": "ncu -u && pnpm update"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.5.1",
+    "@unocss/nuxt": "^0.57.7",
+    "@vueuse/nuxt": "^10.6.1",
+    "nuxt-lodash": "^2.5.3",
+    "nuxt-swiper": "^1.2.2",
+    "pinia": "^2.1.7"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
+    "@types/node": "^18.15.0",
+    "npm-check-updates": "^16.14.11",
     "nuxt": "^3.8.2",
+    "prettier": "^3.1.0",
     "sass": "^1.69.5",
     "unocss": "^0.57.7",
-    "vue": "^3.3.8",
+    "vue": "^3.3.9",
     "vue-router": "^4.2.5"
   }
 }
